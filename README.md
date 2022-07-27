@@ -6,6 +6,6 @@
 
 Что было ожидаемо.
 
-Для понимания как работают `roles` в `ansible` сделал простую роль для установки `Midnight Commander`. На ней выпонил  [molecule test](./molecule.md)
+Для понимания как работают `roles` в `ansible` сделал простую роль для установки [Midnight Commander](./mc/). На ней выпонил  [molecule test](./molecule.md)
 
 Проверил, что роль отрабатывает [site.yml](site.yml)
