@@ -1,0 +1,11 @@
+---
+# This is an example playbook to execute Ansible tests.
+
+- name: Verify
+  hosts: all
+  gather_facts: false
+  tasks:
+  - name: Check mc version
+    shell:
+      cmd: /usr/bin/mc --version
+    changed_when: false

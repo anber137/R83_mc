@@ -1,0 +1,4 @@
+---
+# tasks file for mc
+- name: Install mc
+  apt: name=mc update_cache=yes state=latest

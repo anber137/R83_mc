@@ -1,0 +1,6 @@
+---
+  ubuntu:
+    hosts:
+      ubuntu:
+        ansible_connection: docker
+...

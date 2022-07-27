@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: ubuntu
+  tasks:
+    - name: "Include mc"
+      include_role:
+        name: "mc"
