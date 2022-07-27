@@ -9,3 +9,5 @@
 Для понимания как работают `roles` в `ansible` сделал простую роль для установки [Midnight Commander](./mc/). На ней выпонил  [molecule test](./molecule.md)
 
 Проверил, что роль отрабатывает [site.yml](site.yml)
+
+Разобрался как работает роль [mnt-homeworks-ansible](./mnt-homeworks-ansible/). Запустил для разных ОС. 
